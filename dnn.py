@@ -50,7 +50,7 @@ cap_time_list = []
 prep_time_list = []
 pred_time_list = []
 ser = bytes(ser, 'utf-8')
-			ser.write(deg)
+ser.write(deg)
             
 assert os.path.isfile(vid_path)
 cap = cv2.VideoCapture(vid_path)
